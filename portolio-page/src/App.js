@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import "./App.css";
+import Carosaul from "./landingElements/Carosaul";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Zach Robles</h1>
+      <h2>Software Engineer</h2>
+      <h3>generally cool guy</h3>
+      <Carosaul />
     </div>
   );
 }
