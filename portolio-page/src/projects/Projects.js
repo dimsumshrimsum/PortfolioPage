@@ -53,8 +53,7 @@ const projects = [
   {
     id: 6,
     name: "Decoder Ring",
-    description:
-      "An application that encodes and decodes messages employing three different iconic ciphers.",
+    description: "An application that encodes and decodes messages.",
     image:
       "https://imagedelivery.net/Umg8ReSrPBwyC9Uh-9aekA/cf6c9b03-a3fe-4266-686e-d35c7483a000/public",
     view: "https://dimsumshrimsum.github.io/Decoder-Ring/",

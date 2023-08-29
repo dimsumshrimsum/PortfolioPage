@@ -1,7 +1,7 @@
 function ViewProjects({ name, description, image, view, code }) {
   return (
     <div className="col-md-5 gy-5 gx-5">
-      <div className="card">
+      <div className="card h-100">
         <img src={image} className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">{name}</h5>
