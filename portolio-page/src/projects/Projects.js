@@ -21,12 +21,13 @@ const projects = [
   },
   {
     id: 3,
-    name: "Snowboard Lesson",
-    description: "This is a snowboard lesson",
+    name: "Flash Cards",
+    description:
+      "An application that allows users to create and edit flash cards.",
     image:
-      "https://newtoski.com/wp-content/uploads/2022/07/snowboard-lesson-1.jpg",
+      "https://imagedelivery.net/Umg8ReSrPBwyC9Uh-9aekA/6b97da19-a418-4fcc-c285-8e782dfbf700/public",
     view: "https://www.google.com",
-    code: "www.github.com",
+    code: "https://github.com/dimsumshrimsum/FlashCards",
   },
   {
     id: 4,
