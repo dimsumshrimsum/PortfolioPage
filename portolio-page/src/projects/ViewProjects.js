@@ -8,13 +8,24 @@ function ViewProjects({ name, description, image, view, code }) {
           <p className="card-text"> {description} </p>
           <div className="d-flex flex-column align-items-end">
             <div className="mt-auto">
-              <button
+              <a
+                href={view}
+                target="_blank"
+                rel="noreferrer"
                 className="btn btn-primary btn-sm"
                 style={{ marginRight: "8px" }}
               >
                 View
-              </button>
-              <button className="btn btn-primary btn-sm">Code</button>
+              </a>
+
+              <a
+                href={code}
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-primary btn-sm"
+              >
+                Code
+              </a>
             </div>
           </div>
         </div>

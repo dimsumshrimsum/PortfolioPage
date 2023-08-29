@@ -48,12 +48,13 @@ const projects = [
   },
   {
     id: 6,
-    name: "Snowboard Lesson",
-    description: "This is a snowboard lesson",
+    name: "Decoder Ring",
+    description:
+      "An application that encodes and decodes messages employing three different iconic ciphers.",
     image:
-      "https://newtoski.com/wp-content/uploads/2022/07/snowboard-lesson-1.jpg",
-    view: "https://www.google.com",
-    code: "www.github.com",
+      "https://imagedelivery.net/Umg8ReSrPBwyC9Uh-9aekA/cf6c9b03-a3fe-4266-686e-d35c7483a000/public",
+    view: "https://dimsumshrimsum.github.io/Decoder-Ring/",
+    code: "https://github.com/dimsumshrimsum/Decoder-Ring",
   },
 ];
 
