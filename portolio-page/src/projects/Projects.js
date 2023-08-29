@@ -26,17 +26,18 @@ const projects = [
       "An application that allows users to create and edit flash cards.",
     image:
       "https://imagedelivery.net/Umg8ReSrPBwyC9Uh-9aekA/6b97da19-a418-4fcc-c285-8e782dfbf700/public",
-    view: "https://www.google.com",
+    view: "https://flashcards-77r4.onrender.com/",
     code: "https://github.com/dimsumshrimsum/FlashCards",
   },
   {
     id: 4,
-    name: "Snowboard Lesson",
-    description: "This is a snowboard lesson",
+    name: "We Love Movies",
+    description:
+      "An application that allows users to view morives and reviews.",
     image:
-      "https://newtoski.com/wp-content/uploads/2022/07/snowboard-lesson-1.jpg",
-    view: "https://www.google.com",
-    code: "www.github.com",
+      "https://imagedelivery.net/Umg8ReSrPBwyC9Uh-9aekA/b5a6f919-b73c-4418-0fca-d0fce9e7f700/public",
+    view: "https://we-love-movies-front.onrender.com/theaters",
+    code: "https://github.com/dimsumshrimsum/WeLoveMovies",
   },
   {
     id: 5,
