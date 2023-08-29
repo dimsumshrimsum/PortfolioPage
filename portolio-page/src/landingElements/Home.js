@@ -1,6 +1,6 @@
 import Carosaul from "./Carosaul";
 import AboutMe from "../aboutMe/AboutMe";
-
+import Projects from "../projects/Projects";
 function Home() {
   const extraSpace = {
     height: "200px",
@@ -27,10 +27,15 @@ function Home() {
         </div>
       </div>
       <div className="row align-items-center" style={extraSpace}></div>
-
       <div className="row align-items-center mt-4 mb-4">
         <div className="col-md-6 mx-auto">
           <AboutMe />
+        </div>
+      </div>
+      <div className="row align-items-center" style={extraSpace}></div>
+      <div className="row align-items-center mt-4 mb-4">
+        <div className="col-md-8 mx-auto">
+          <Projects />
         </div>
       </div>
     </div>
