@@ -41,12 +41,13 @@ const projects = [
   },
   {
     id: 5,
-    name: "Snowboard Lesson",
-    description: "This is a snowboard lesson",
+    name: "Recipe Tracker",
+    description:
+      "An application that allows users to track and update recipes.",
     image:
-      "https://newtoski.com/wp-content/uploads/2022/07/snowboard-lesson-1.jpg",
-    view: "https://www.google.com",
-    code: "www.github.com",
+      "https://imagedelivery.net/Umg8ReSrPBwyC9Uh-9aekA/4a579725-5d5c-41b1-2ba5-25bf616d0b00/public",
+    view: "https://recipe-tracker-j59p.onrender.com/",
+    code: "https://github.com/dimsumshrimsum/recipe-tracker",
   },
   {
     id: 6,
