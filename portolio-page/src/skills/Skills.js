@@ -11,7 +11,7 @@ const skills = [
     id: 2,
     source:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-    alt: "Node",
+    alt: "NodeJs",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const skills = [
     id: 5,
     source:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
-    alt: "Postgres",
+    alt: "Postgresql",
   },
   {
     id: 6,
@@ -47,13 +47,13 @@ const skills = [
     id: 8,
     source:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-    alt: "CSS",
+    alt: "CSS3",
   },
   {
     id: 9,
     source:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-    alt: "HTML",
+    alt: "HTML5",
   },
 ];
 
