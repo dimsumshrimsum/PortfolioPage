@@ -3,12 +3,13 @@ import ViewProjects from "./ViewProjects";
 const projects = [
   {
     id: 1,
-    name: "Snowboard Lesson",
-    description: "This is a snowboard lesson",
+    name: "Restaurant Reservation System",
+    description:
+      "An application that allows making, editing, and seating reservations.",
     image:
-      "https://newtoski.com/wp-content/uploads/2022/07/snowboard-lesson-1.jpg",
-    view: "https://www.google.com",
-    code: "www.github.com",
+      "https://imagedelivery.net/Umg8ReSrPBwyC9Uh-9aekA/d09dc412-42c8-431a-b45e-3da14cdfbb00/public",
+    view: "https://restaurant-reservation-frontend-wphd.onrender.com/dashboard",
+    code: "https://github.com/dimsumshrimsum/restaurant-reservation",
   },
   {
     id: 2,
