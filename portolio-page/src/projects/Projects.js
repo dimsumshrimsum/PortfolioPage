@@ -13,12 +13,13 @@ const projects = [
   },
   {
     id: 2,
-    name: "Snowboard Lesson",
-    description: "This is a snowboard lesson",
+    name: "The PokeDen",
+    description:
+      "An collaborative application that displays a variety of pokemon related info.",
     image:
-      "https://newtoski.com/wp-content/uploads/2022/07/snowboard-lesson-1.jpg",
-    view: "https://www.google.com",
-    code: "www.github.com",
+      "https://imagedelivery.net/Umg8ReSrPBwyC9Uh-9aekA/1bbf1c80-b52a-40c3-0a8d-e8f170103300/public",
+    view: "https://github.com/codingWithAaron/The-PokeDen",
+    code: "https://github.com/codingWithAaron/The-PokeDen",
   },
   {
     id: 3,
