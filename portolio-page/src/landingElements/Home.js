@@ -3,10 +3,16 @@ import AboutMe from "../aboutMe/AboutMe";
 import Projects from "../projects/Projects";
 import Skills from "../skills/Skills";
 import ContactForm from "../contactForm/ContactForm";
-
+import Socials from "../socials/Socials";
 function Home() {
   const extraSpace = {
     height: "200px",
+  };
+
+  const stickyBar = {
+    position: "sticky",
+    top: "0",
+    zIndex: "1",
   };
 
   return (
