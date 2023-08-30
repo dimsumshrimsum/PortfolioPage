@@ -3,8 +3,7 @@ import "./Socials.css";
 function Socials() {
   return (
     <div className="button-bar">
-      <h1> Socials </h1>
-      <button className="button">
+      <button className="linkedin">
         <div className="row align-items-center">
           <div className="col-auto">linkedin</div>
           <div className="col-auto">

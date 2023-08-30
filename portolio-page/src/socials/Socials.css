@@ -8,6 +8,16 @@
   transition: transform 0.3s;
 }
 
+.linkedin {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
 .button-bar {
   top: 0;
   display: flex;
@@ -18,5 +28,9 @@
 }
 
 .button:hover {
+  transform: translateX(10px);
+}
+
+.linkedin:hover {
   transform: translateX(10px);
 }
