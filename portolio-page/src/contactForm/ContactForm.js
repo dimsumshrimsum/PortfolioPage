@@ -36,6 +36,7 @@ function ContactForm() {
             type="text"
             className="form-control"
             placeholder="Name"
+            name="from_name"
             required
           />
         </div>
@@ -44,6 +45,7 @@ function ContactForm() {
             type="email"
             className="form-control"
             placeholder="Email"
+            name="from_email"
             required
           />
         </div>
@@ -52,6 +54,7 @@ function ContactForm() {
             type="text"
             className="form-control"
             placeholder="Subject"
+            name="subject"
             required
           />
         </div>
@@ -59,6 +62,7 @@ function ContactForm() {
           <textarea
             className="form-control"
             placeholder="Message"
+            name="message"
             rows="7"
             required
           ></textarea>
