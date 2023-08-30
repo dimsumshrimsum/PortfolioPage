@@ -12,9 +12,9 @@ function App() {
   };
   return (
     <div className="App">
-      <div style={stickyBar}>
+      {/* <div style={stickyBar}>
         <Socials />
-      </div>
+      </div> */}
       <Home />
     </div>
   );
