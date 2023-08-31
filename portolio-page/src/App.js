@@ -1,5 +1,5 @@
 import "./App.css";
-import Socials from "./socials/Socials";
+
 import Home from "./landingElements/Home";
 function App() {
   const stickyBar = {
@@ -12,9 +12,6 @@ function App() {
   };
   return (
     <div className="App">
-      {/* <div style={stickyBar}>
-        <Socials />
-      </div> */}
       <Home />
     </div>
   );
