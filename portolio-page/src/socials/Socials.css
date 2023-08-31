@@ -13,3 +13,7 @@
   flex-direction: column;
   gap: 10px; /* Adjust the gap as needed */
 }
+
+.social-icon {
+  color: black;
+}
