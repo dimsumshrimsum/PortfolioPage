@@ -9,12 +9,6 @@ function Home() {
     height: "20vh",
   };
 
-  const stickyBar = {
-    position: "sticky",
-    top: "0",
-    zIndex: "1",
-  };
-
   return (
     <div className="container">
       <Socials />
