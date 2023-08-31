@@ -1,5 +1,5 @@
 import "./App.css";
-
+import Socials from "./socials/Socials";
 import Home from "./landingElements/Home";
 function App() {
   const stickyBar = {

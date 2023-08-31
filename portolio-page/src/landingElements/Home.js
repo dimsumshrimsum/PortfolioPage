@@ -6,7 +6,7 @@ import ContactForm from "../contactForm/ContactForm";
 import Socials from "../socials/Socials";
 function Home() {
   const extraSpace = {
-    height: "200px",
+    height: "20vh",
   };
 
   const stickyBar = {
@@ -17,6 +17,7 @@ function Home() {
 
   return (
     <div className="container">
+      <Socials />
       <div className="row align-items-center" style={extraSpace}></div>
 
       <div className="row mt-4 mb-5 justify-content-center">
