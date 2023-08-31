@@ -26,35 +26,38 @@ function Carosaul() {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
-            src="https://newtoski.com/wp-content/uploads/2022/07/snowboard-lesson-1.jpg"
-            className="d-block w-100"
+            src="https://imagedelivery.net/Umg8ReSrPBwyC9Uh-9aekA/eb1c104d-7a79-4e78-b76d-75aec7ccf700/highresBackground"
+            className="d-block w-100 img-fluid"
             alt="..."
           />
           <div className="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+            <h5>Problem Solver</h5>
+            <p>
+              These will be updated as soon as i have time to get someone to
+              take some photos of me lol
+            </p>
           </div>
         </div>
         <div className="carousel-item">
           <img
-            src="https://newtoski.com/wp-content/uploads/2022/07/snowboard-lesson-1.jpg"
-            className="d-block w-100"
+            src="https://imagedelivery.net/Umg8ReSrPBwyC9Uh-9aekA/53422620-0424-4974-8fed-ddf93e131b00/highresBackground"
+            className="d-block w-100 img-fluid"
             alt="..."
           />
-          <div className="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+          <div className="carousel-caption  d-none d-md-block">
+            <h5>Team Player</h5>
+            <p>at least i know how to use the carousel</p>
           </div>
         </div>
         <div className="carousel-item">
           <img
-            src="https://newtoski.com/wp-content/uploads/2022/07/snowboard-lesson-1.jpg"
+            src="https://imagedelivery.net/Umg8ReSrPBwyC9Uh-9aekA/5a117d6f-1107-442d-389a-e91884ce6200/highresBackground"
             className="d-block w-100"
             alt="..."
           />
           <div className="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+            <h5>Out of the box Thinker</h5>
+            <p>I should learn Tailwind</p>
           </div>
         </div>
       </div>

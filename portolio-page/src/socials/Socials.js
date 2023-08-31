@@ -1,50 +1,14 @@
-// import "./Socials.css";
+import "./Socials.css";
 
-// function Socials() {
-//   return (
-//     <div className="button-bar">
-//       <button className="linkedin">
-//         <div className="row align-items-center">
-//           <div className="col-auto">linkedin</div>
-//           <div className="col-auto">
-//             <span>
-//               <i className="devicon-linkedin-plain"></i>
-//             </span>
-//           </div>
-//         </div>
-//       </button>
-//       <button className="button">
-//         <div className="row align-items-center">
-//           <div className="col-auto">GitHub</div>
-//           <div className="col-auto">
-//             <span>
-//               <i className="devicon-linkedin-plain"></i>
-//             </span>
-//           </div>
-//         </div>
-//       </button>
-//       <button className="button">
-//         <div className="row align-items-center">
-//           <div className="col-auto">Email</div>
-//           <div className="col-auto">
-//             <span>
-//               <i className="devicon-linkedin-plain"></i>
-//             </span>
-//           </div>
-//         </div>
-//       </button>
-//       <button className="button">
-//         <div className="row align-items-center">
-//           <div className="col-auto">Resume</div>
-//           <div className="col-auto">
-//             <span>
-//               <i className="devicon-linkedin-plain"></i>
-//             </span>
-//           </div>
-//         </div>
-//       </button>
-//     </div>
-//   );
-// }
+function Socials() {
+  return (
+    <div className="socials">
+      <i class="bi bi-linkedin"></i>
+      <i class="bi bi-github"></i>
+      <i class="bi bi-envelope-at-fill"></i>
+      <i class="bi bi-file-earmark-person-fill"></i>
+    </div>
+  );
+}
 
-// export default Socials;
+export default Socials;
