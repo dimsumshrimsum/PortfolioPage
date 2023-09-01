@@ -1,0 +1,5 @@
+.text {
+  color: black;
+  text-shadow: 1px 1px 1px #ddd, -1px -1px 1px #ddd, 1px -1px 1px #ddd,
+    -1px 1px 1px #ddd;
+}

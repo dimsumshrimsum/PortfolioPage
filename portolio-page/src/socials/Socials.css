@@ -28,7 +28,7 @@
   color: black;
   font-size: 3vh;
   transition: transform 0.3s ease-in-out;
-  transform: translateX(-73%);
+  transform: translateX(-74%);
   width: 16vh; /* Set a fixed width */
   height: 3vh; /* Set a fixed height */
   display: flex;

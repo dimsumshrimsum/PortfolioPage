@@ -1,10 +1,12 @@
+import "./AboutMe.css";
+
 function AboutMe() {
   return (
     <div>
       <div className="row justify-content-center">
         <h1>About Me</h1>
         <div className="col-md-8 d-flex align-items-center">
-          <p>
+          <p className="text">
             I'm Zachary, but please feel free to call me Zach. I'm inspired by
             learning new things and coding supplies a limitless spring of new
             things to learn. Solving problems has always provided a unique

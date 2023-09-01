@@ -4,6 +4,7 @@ import Projects from "../projects/Projects";
 import Skills from "../skills/Skills";
 import ContactForm from "../contactForm/ContactForm";
 import Socials from "../socials/Socials";
+import NavBar from "../nav/NavBar";
 function Home() {
   const extraSpace = {
     height: "20vh",
@@ -12,7 +13,12 @@ function Home() {
   return (
     <div className="container">
       <Socials />
-      <div className="row align-items-center" style={extraSpace}></div>
+      <NavBar />
+      <div
+        className="row align-items-center"
+        id="home"
+        style={extraSpace}
+      ></div>
 
       <div className="row mt-4 mb-5 justify-content-center">
         <div className="col-md-6 mx-auto">
@@ -30,25 +36,41 @@ function Home() {
           <Carosaul />
         </div>
       </div>
-      <div className="row align-items-center" style={extraSpace}></div>
+      <div
+        className="row align-items-center"
+        style={extraSpace}
+        id="about"
+      ></div>
       <div className="row align-items-center mt-4 mb-4">
         <div className="col mx-auto">
           <AboutMe />
         </div>
       </div>
-      <div className="row align-items-center" style={extraSpace}></div>
+      <div
+        className="row align-items-center"
+        style={extraSpace}
+        id="projects"
+      ></div>
       <div className="row align-items-center mt-4 mb-4">
         <div className="col-md-8 mx-auto">
           <Projects />
         </div>
       </div>
-      <div className="row align-items-center" style={extraSpace}></div>
+      <div
+        className="row align-items-center"
+        style={extraSpace}
+        id="skills"
+      ></div>
       <div className="row align-items-center mt-4 mb-4">
         <div className="col-md-8 mx-auto">
           <Skills />
         </div>
       </div>
-      <div className="row align-items-center" style={extraSpace}></div>
+      <div
+        className="row align-items-center"
+        style={extraSpace}
+        id="contact"
+      ></div>
       <div className="row align-items-center mt-4 mb-4">
         <div className="col-md-8 mx-auto">
           <ContactForm />
