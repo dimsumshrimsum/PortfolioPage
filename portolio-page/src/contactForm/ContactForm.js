@@ -87,7 +87,7 @@ function ContactForm() {
               rel="noreferrer"
               className="d-flex justify-content-center align-items-center "
             >
-              <i className="bi bi-linkedin "></i>
+              <i className="bi bi-linkedin light-icon "></i>
             </a>
           </div>
           <div className="col">
@@ -97,7 +97,7 @@ function ContactForm() {
               rel="noreferrer"
               className="d-flex justify-content-center align-items-center "
             >
-              <i className="bi bi-github"></i>
+              <i className="bi bi-github dark-icon"></i>
             </a>
           </div>
           <div className="col">
@@ -105,7 +105,7 @@ function ContactForm() {
               href="mailto:zrobles1188@gmail.com"
               className="d-flex justify-content-center align-items-center"
             >
-              <i className="bi bi-envelope-at-fill"></i>
+              <i className="bi bi-envelope-at-fill light-icon"></i>
             </a>
           </div>
           <div className="col">
@@ -114,7 +114,7 @@ function ContactForm() {
               download="ZachRoblesResume.pdf"
               className="d-flex justify-content-center align-items-center"
             >
-              <i className="bi bi-file-earmark-person-fill"></i>
+              <i className="bi bi-file-earmark-person-fill dark-icon"></i>
             </a>
           </div>
         </div>
