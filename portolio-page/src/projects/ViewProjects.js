@@ -1,3 +1,5 @@
+import "./ViewProjects.css";
+
 function ViewProjects({ name, description, image, view, code }) {
   return (
     <div className="col-md-5 gy-5 gx-5">
@@ -11,12 +13,12 @@ function ViewProjects({ name, description, image, view, code }) {
           <h5 className="card-title">{name}</h5>
           <p className="card-text"> {description} </p>
           {/* <div className="d-flex flex-column align-items-end"> */}
-          <div className="mt-auto d-flex justify-content-end">
+          <div className="mt-auto d-flex justify-content-end  ">
             <a
               href={view}
               target="_blank"
               rel="noreferrer"
-              className="btn btn-primary btn-sm"
+              className="btn btn-primary btn-sm btn-responsive"
               style={{ marginRight: "8px" }}
             >
               View
@@ -26,7 +28,7 @@ function ViewProjects({ name, description, image, view, code }) {
               href={code}
               target="_blank"
               rel="noreferrer"
-              className="btn btn-primary btn-sm"
+              className="btn btn-primary btn-sm btn-responsive"
             >
               Code
             </a>
