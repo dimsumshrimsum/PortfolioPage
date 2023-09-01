@@ -1,12 +1,22 @@
+body::before {
+  content: "";
+  position: fixed; /* Fixed position */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; /* Give it explicit dimensions */
+  z-index: -1; /* Place it behind the content */
+
+  background-image: url("https://imagedelivery.net/Umg8ReSrPBwyC9Uh-9aekA/c4ae05f6-354b-4e5c-1421-d67c2a58e500/highresBackground");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 body {
   margin: 0;
   font-family: "Kanit", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("https://imagedelivery.net/Umg8ReSrPBwyC9Uh-9aekA/c4ae05f6-354b-4e5c-1421-d67c2a58e500/highresBackground");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 code {
