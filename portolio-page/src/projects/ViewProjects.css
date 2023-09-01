@@ -1,3 +1,15 @@
+.code-button {
+  background-color: #9bbbd4;
+}
+
+.view-button {
+  background-color: #576669;
+}
+
+.code-text {
+  color: white;
+}
+
 @media (max-width: 768px) {
   .btn-responsive {
     padding: 12px 16px; /* Increase button padding */

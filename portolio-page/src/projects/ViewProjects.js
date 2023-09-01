@@ -18,7 +18,7 @@ function ViewProjects({ name, description, image, view, code }) {
               href={view}
               target="_blank"
               rel="noreferrer"
-              className="btn btn-primary btn-sm btn-responsive"
+              className="btn btn-sm btn-responsive view-button code-text"
               style={{ marginRight: "8px" }}
             >
               View
@@ -28,7 +28,7 @@ function ViewProjects({ name, description, image, view, code }) {
               href={code}
               target="_blank"
               rel="noreferrer"
-              className="btn btn-primary btn-sm btn-responsive"
+              className="btn btn-sm  btn-responsive code-button code-text"
             >
               Code
             </a>

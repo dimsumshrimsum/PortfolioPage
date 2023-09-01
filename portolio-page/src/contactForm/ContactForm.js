@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import "./ContactForm.css";
 
 function ContactForm() {
   const form = useRef();
@@ -71,7 +72,7 @@ function ContactForm() {
           <div className="col-lg-3 col-sm-6 mb-3">
             <input
               type="submit"
-              className="form-control btn btn-primary "
+              className="form-control btn collab-button "
               value="Collab with me!"
             />
           </div>

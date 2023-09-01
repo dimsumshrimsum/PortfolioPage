@@ -13,7 +13,7 @@
 }
 
 .social-icon-linkedIn {
-  color: black;
+  color: #425055;
   font-size: 3vh;
   transition: transform 0.3s ease-in-out;
   transform: translateX(-80%);
@@ -25,7 +25,7 @@
 }
 
 .social-icon-github {
-  color: black;
+  color: #9daab1;
   font-size: 3vh;
   transition: transform 0.3s ease-in-out;
   transform: translateX(-74%);
@@ -38,7 +38,7 @@
 }
 
 .social-icon-email {
-  color: black;
+  color: #425055;
   font-size: 3vh;
   transition: transform 0.3s ease-in-out;
   transform: translateX(-70%);
@@ -50,7 +50,7 @@
   overflow: hidden;
 }
 .social-icon-resume {
-  color: black;
+  color: #9daab1;
   font-size: 3vh;
   transition: transform 0.3s ease-in-out;
   transform: translateX(-78%);
