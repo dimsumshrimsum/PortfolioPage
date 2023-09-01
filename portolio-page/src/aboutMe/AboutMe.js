@@ -18,7 +18,8 @@ function AboutMe() {
             to the world of software development, but I am eager and excited to
             learn and grow as a developer. When I'm not coding I train Brazilian
             Jiu Jitsu and Rock Climb. I play a number of musical instruments, am
-            {/* an avid painter, and I also enjoy tabletop games. I try to serve my
+            an avid painter, and I also enjoy tabletop games.{" "}
+            {/*I try to serve my
             community and I currently tutor local underserved spanish speaking
             3rd-6th graders.*/}{" "}
             I strive for a greater good in all that I do and I hope to bring
