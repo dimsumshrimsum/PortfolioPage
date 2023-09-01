@@ -8,7 +8,7 @@ const projects = [
       "An application that allows making, editing, and seating reservations.",
     image:
       "https://imagedelivery.net/Umg8ReSrPBwyC9Uh-9aekA/d09dc412-42c8-431a-b45e-3da14cdfbb00/public",
-    view: "https://restaurant-reservation-frontend-wphd.onrender.com/dashboard",
+    view: "https://restaurant-reservation-frontend-wphd.onrender.com",
     code: "https://github.com/dimsumshrimsum/restaurant-reservation",
   },
   {
