@@ -26,7 +26,7 @@ function Carosaul() {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
-            src="https://imagedelivery.net/Umg8ReSrPBwyC9Uh-9aekA/eb1c104d-7a79-4e78-b76d-75aec7ccf700/highresBackground"
+            src="https://imagedelivery.net/Umg8ReSrPBwyC9Uh-9aekA/a7be0e79-56d8-4cb6-5981-1d3067b84700/highresBackground"
             className="d-block w-100 img-fluid"
             alt="..."
           />
@@ -36,7 +36,7 @@ function Carosaul() {
         </div>
         <div className="carousel-item">
           <img
-            src="https://imagedelivery.net/Umg8ReSrPBwyC9Uh-9aekA/53422620-0424-4974-8fed-ddf93e131b00/highresBackground"
+            src="https://imagedelivery.net/Umg8ReSrPBwyC9Uh-9aekA/f1a5f267-49d5-430d-8f54-d6226d9e9100/highresBackground"
             className="d-block w-100 img-fluid"
             alt="..."
           />
@@ -46,7 +46,7 @@ function Carosaul() {
         </div>
         <div className="carousel-item">
           <img
-            src="https://imagedelivery.net/Umg8ReSrPBwyC9Uh-9aekA/5a117d6f-1107-442d-389a-e91884ce6200/highresBackground"
+            src="https://imagedelivery.net/Umg8ReSrPBwyC9Uh-9aekA/7de9a973-2b5f-47e4-65dc-04331793c100/highresBackground"
             className="d-block w-100"
             alt="..."
           />
