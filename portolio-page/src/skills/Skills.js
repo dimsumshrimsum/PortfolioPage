@@ -1,5 +1,6 @@
 import ListSkills from "./ListSkills";
-
+import { useEffect } from "react";
+const bootstrap = require("bootstrap");
 const skills = [
   {
     id: 1,
@@ -58,6 +59,13 @@ const skills = [
 ];
 
 function Skills() {
+  useEffect(() => {
+    const tooltips = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+    tooltips.forEach((tooltip) => {
+      new bootstrap.Tooltip(tooltip);
+    });
+  }, []);
+
   return (
     <div className="container">
       <div className="row text-center">
@@ -65,7 +73,7 @@ function Skills() {
       </div>
       <div className="row justify-content-center">
         {skills.map((skill) => (
-          <ListSkills source={skill.source} alt={skill.alt} id={skill.id} />
+          <ListSkills key={skill.id} source={skill.source} alt={skill.alt} />
         ))}
       </div>
     </div>
