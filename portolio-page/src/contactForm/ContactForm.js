@@ -68,15 +68,56 @@ function ContactForm() {
           ></textarea>
         </div>
         <div className="row justify-content-center">
-          <div className="col-3 mb-3">
+          <div className="col-lg-3 col-sm-6 mb-3">
             <input
               type="submit"
-              className="form-control btn btn-primary"
+              className="form-control btn btn-primary "
               value="Collab with me!"
             />
           </div>
         </div>
       </form>
+      <div className="d-md-none align-items-center justify-content-space-around ">
+        <div className="row">
+          <div className="col">
+            <a
+              href="https://www.linkedin.com/in/zacharyrobles/"
+              target="_blank"
+              rel="noreferrer"
+              className="d-flex justify-content-center align-items-center "
+            >
+              <i className="bi bi-linkedin "></i>
+            </a>
+          </div>
+          <div className="col">
+            <a
+              href="https://github.com/dimsumshrimsum"
+              target="_blank"
+              rel="noreferrer"
+              className="d-flex justify-content-center align-items-center "
+            >
+              <i className="bi bi-github"></i>
+            </a>
+          </div>
+          <div className="col">
+            <a
+              href="mailto:zrobles1188@gmail.com"
+              className="d-flex justify-content-center align-items-center"
+            >
+              <i className="bi bi-envelope-at-fill"></i>
+            </a>
+          </div>
+          <div className="col">
+            <a
+              href="/downloads/ZachRoblesSoftwareEngineer.pdf"
+              download="ZachRoblesResume.pdf"
+              className="d-flex justify-content-center align-items-center"
+            >
+              <i className="bi bi-file-earmark-person-fill"></i>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

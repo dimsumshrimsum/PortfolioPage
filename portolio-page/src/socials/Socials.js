@@ -2,7 +2,7 @@ import "./Socials.css";
 
 function Socials() {
   return (
-    <div className="socials-container">
+    <div className="socials-container ">
       <div className="socials">
         <a
           href="https://www.linkedin.com/in/zacharyrobles/"

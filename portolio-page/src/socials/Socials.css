@@ -87,3 +87,9 @@
 .social-icon-resume:hover {
   transform: translateX(0%);
 }
+
+@media (max-width: 768px) {
+  .socials-container {
+    display: none;
+  }
+}

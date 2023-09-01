@@ -1,14 +1,8 @@
 import "./NavBar.css";
 
 function NavBar() {
-  const navStyle = {
-    position: "fixed",
-    zIndex: 1000,
-    right: 0,
-  };
-
   return (
-    <ul className="nav justify-content-end" style={navStyle}>
+    <ul className="nav justify-content-end navbar">
       <li className="nav-item">
         <a
           className="nav-link active navbar-text"

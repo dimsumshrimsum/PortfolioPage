@@ -1,5 +1,17 @@
+.navbar {
+  position: fixed;
+  z-index: 1000;
+  right: 0;
+}
+
 .navbar-text {
   color: black;
   text-shadow: 1px 1px 1px #ddd, -1px -1px 1px #ddd, 1px -1px 1px #ddd,
     -1px 1px 1px #ddd;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
 }
