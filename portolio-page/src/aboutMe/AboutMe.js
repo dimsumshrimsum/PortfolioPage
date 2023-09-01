@@ -28,7 +28,7 @@ function AboutMe() {
             that to the table as a developer.
           </p>
         </div>
-        <div className="col-md-4 d-flex align-items-center">
+        <div className="col-md-4 d-flex align-items-center portrait">
           <img
             src="https://imagedelivery.net/Umg8ReSrPBwyC9Uh-9aekA/9a969ca6-ef5d-42f5-f505-86b040b0d000/public"
             alt="Zach Robles"

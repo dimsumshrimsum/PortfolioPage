@@ -3,3 +3,9 @@
   text-shadow: 1px 1px 1px #ddd, -1px -1px 1px #ddd, 1px -1px 1px #ddd,
     -1px 1px 1px #ddd;
 }
+
+@media (max-width: 768px) {
+  .portrait {
+    justify-content: center;
+  }
+}

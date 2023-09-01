@@ -77,8 +77,8 @@ function ContactForm() {
           </div>
         </div>
       </form>
-      <div className="d-md-none align-items-center justify-content-space-around ">
-        <div className="row">
+      <div className="d-md-none align-items-center justify-content-space-around fs-1">
+        <div className="row mt-1">
           <div className="col">
             <a
               href="https://www.linkedin.com/in/zacharyrobles/"
