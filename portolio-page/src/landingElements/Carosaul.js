@@ -32,10 +32,6 @@ function Carosaul() {
           />
           <div className="carousel-caption d-none d-md-block">
             <h5>Problem Solver</h5>
-            <p>
-              These will be updated as soon as i have time to get someone to
-              take some photos of me lol
-            </p>
           </div>
         </div>
         <div className="carousel-item">
@@ -46,7 +42,6 @@ function Carosaul() {
           />
           <div className="carousel-caption  d-none d-md-block">
             <h5>Team Player</h5>
-            <p>at least i know how to use the carousel</p>
           </div>
         </div>
         <div className="carousel-item">
@@ -57,7 +52,6 @@ function Carosaul() {
           />
           <div className="carousel-caption d-none d-md-block">
             <h5>Out of the box Thinker</h5>
-            <p>I should learn Tailwind</p>
           </div>
         </div>
       </div>
