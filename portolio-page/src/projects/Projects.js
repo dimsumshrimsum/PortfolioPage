@@ -38,7 +38,7 @@ const projects = [
       "An application that allows users to view morives and reviews.",
     image:
       "https://imagedelivery.net/Umg8ReSrPBwyC9Uh-9aekA/b5a6f919-b73c-4418-0fca-d0fce9e7f700/public",
-    view: "https://we-love-movies-front.onrender.com/theaters",
+    view: "https://we-love-movies-front.onrender.com/",
     code: "https://github.com/dimsumshrimsum/WeLoveMovies",
   },
   {
