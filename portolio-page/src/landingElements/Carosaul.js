@@ -30,7 +30,7 @@ function Carosaul() {
             className="d-block w-100 img-fluid"
             alt="..."
           />
-          <div className="carousel-caption d-none d-md-block">
+          <div className="carousel-caption ">
             <h5>Problem Solver</h5>
           </div>
         </div>
@@ -40,7 +40,7 @@ function Carosaul() {
             className="d-block w-100 img-fluid"
             alt="..."
           />
-          <div className="carousel-caption  d-none d-md-block">
+          <div className="carousel-caption  ">
             <h5>Team Player</h5>
           </div>
         </div>
@@ -50,7 +50,7 @@ function Carosaul() {
             className="d-block w-100"
             alt="..."
           />
-          <div className="carousel-caption d-none d-md-block">
+          <div className="carousel-caption ">
             <h5>Out of the box Thinker</h5>
           </div>
         </div>
