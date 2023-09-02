@@ -1,3 +1,5 @@
+import "./Carosaul.css";
+
 function Carosaul() {
   return (
     <div id="carousel" className="carousel slide" data-bs-ride="carousel">
@@ -30,7 +32,7 @@ function Carosaul() {
             className="d-block w-100 img-fluid"
             alt="..."
           />
-          <div className="carousel-caption ">
+          <div className="carousel-caption text">
             <h5>Problem Solver</h5>
           </div>
         </div>
@@ -40,7 +42,7 @@ function Carosaul() {
             className="d-block w-100 img-fluid"
             alt="..."
           />
-          <div className="carousel-caption  ">
+          <div className="carousel-caption text ">
             <h5>Team Player</h5>
           </div>
         </div>
@@ -50,7 +52,7 @@ function Carosaul() {
             className="d-block w-100"
             alt="..."
           />
-          <div className="carousel-caption ">
+          <div className="carousel-caption text">
             <h5>Out of the box Thinker</h5>
           </div>
         </div>
