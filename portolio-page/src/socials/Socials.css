@@ -35,7 +35,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
 
 .social-icon-email {
@@ -48,7 +47,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
 .social-icon-resume {
   color: #9daab1;
@@ -60,7 +58,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
 
 .text-icon {
