@@ -23,7 +23,7 @@
   transform: translateX(-76%);
   width: 17.9vh; /* Set a fixed width */
   height: 5vh;
-  border-radius: 0 5px 5px 0;
+  border-radius: 0 10px 10px 0;
 }
 
 .social-icon-github {
@@ -37,7 +37,7 @@
   transform: translateX(-74%);
   width: 16.5vh; /* Set a fixed width */
   height: 5vh; /* Set a fixed height */
-  border-radius: 0 5px 5px 0;
+  border-radius: 0 10px 10px 0;
 }
 
 .social-icon-email {
@@ -52,7 +52,7 @@
 
   width: 14.68vh; /* Set a fixed width */
   height: 5vh; /* Set a fixed height */
-  border-radius: 0 5px 5px 0;
+  border-radius: 0 10px 10px 0;
 }
 .social-icon-resume {
   display: flex;
@@ -63,9 +63,9 @@
   font-size: 3vh;
   transition: transform 0.3s ease-in-out;
   transform: translateX(-78%);
-  width: 18.8vh; /* Set a fixed width */
+  width: 19.2vh; /* Set a fixed width */
   height: 5vh; /* Set a fixed height */
-  border-radius: 0 5px 5px 0;
+  border-radius: 0 10px 10px 0;
 }
 
 .text-icon {
@@ -99,17 +99,24 @@
   padding-right: 1vh;
 }
 
+.linkedIn-icon {
+  padding-left: 0.4vh;
+  padding-right: 0.7vh;
+}
+
 .github-icon {
   padding-left: 0.4vh;
+  padding-right: 0.1vh;
 }
 
 .email-icon {
   padding-left: 0.4vh;
-  padding-right: 0.5vh;
+  padding-right: 0.6vh;
 }
 
 .resume-icon {
-  padding-left: 1.6vh;
+  padding-left: 1.9vh;
+  padding-right: 0.1vh;
 }
 
 @media (max-width: 768px) {
