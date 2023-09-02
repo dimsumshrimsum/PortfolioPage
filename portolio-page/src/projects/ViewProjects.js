@@ -1,6 +1,6 @@
 import "./ViewProjects.css";
 
-function ViewProjects({ name, description, image, view, code }) {
+function ViewProjects({ name, description, image, view, code, id }) {
   return (
     <div className="col-md-5 gy-5 gx-5">
       <div className="card h-100">
@@ -20,6 +20,8 @@ function ViewProjects({ name, description, image, view, code }) {
               rel="noreferrer"
               className="btn btn-sm btn-responsive view-button code-text"
               style={{ marginRight: "8px" }}
+              onClick={(e) => id === 2 && e.preventDefault()}
+              aria-disabled={id === 2}
             >
               View
             </a>

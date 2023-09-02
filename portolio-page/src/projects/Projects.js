@@ -15,7 +15,7 @@ const projects = [
     id: 2,
     name: "The PokeDen",
     description:
-      "An collaborative application that displays a variety of pokemon related info.",
+      "An collaborative application that displays a variety of pokemon related info. WIP",
     image:
       "https://imagedelivery.net/Umg8ReSrPBwyC9Uh-9aekA/1bbf1c80-b52a-40c3-0a8d-e8f170103300/public",
     view: "https://github.com/codingWithAaron/The-PokeDen",
