@@ -4,7 +4,7 @@ import "./index.css";
 function App() {
   return (
     <div className="App">
-      <div id="backgroundWrapper"></div>
+      <div id="backgroundWrapper" className="background"></div>
       <Home />
     </div>
   );

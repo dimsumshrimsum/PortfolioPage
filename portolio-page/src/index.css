@@ -17,6 +17,13 @@ html {
   background-repeat: no-repeat;
 }
 
+@media (max-width: 767px) {
+  #backgroundWrapper {
+    background-size: 3258px 1672px;
+    background-position: left bottom;
+  }
+}
+
 body {
   font-family: "Kanit", sans-serif;
   -webkit-font-smoothing: antialiased;
