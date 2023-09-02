@@ -21,7 +21,7 @@ function Home() {
       ></div>
 
       <div className="row mt-4 mb-5 justify-content-center">
-        <div className="col-md-6 mx-auto">
+        <div className="col-md-6 d-flex flex-column justify-content-center">
           <h6>
             <span className="text-muted">Hello, my name is</span>
           </h6>
