@@ -18,9 +18,10 @@ function ViewProjects({ name, description, image, view, code, id }) {
               href={view}
               target="_blank"
               rel="noreferrer"
-              className="btn btn-sm btn-responsive view-button code-text"
+              className={`btn btn-sm btn-responsive view-button code-text ${
+                id === 2 ? "btn-disabled" : ""
+              }`}
               style={{ marginRight: "8px" }}
-              onClick={(e) => id === 2 && e.preventDefault()}
               aria-disabled={id === 2}
             >
               View
