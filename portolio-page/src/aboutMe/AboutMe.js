@@ -18,9 +18,9 @@ function AboutMe() {
             the same, I've loved being part of a team, I've loved reaching
             towards a common goal, and I've loved pushing myself. I may be new
             to the world of software development, but I am eager and excited to
-            learn and grow as a developer. When I'm not coding I train Brazilian
-            Jiu Jitsu and Rock Climb. I play a number of musical instruments, am
-            an avid painter, and I also enjoy tabletop games.{" "}
+            learn and grow as a developer. When I'm not coding, I train
+            Brazilian Jiu Jitsu and Rock Climb. I play a number of musical
+            instruments, am an avid painter, and I also enjoy tabletop games.{" "}
             {/*I try to serve my
             community and I currently tutor local underserved spanish speaking
             3rd-6th graders.*/}{" "}
