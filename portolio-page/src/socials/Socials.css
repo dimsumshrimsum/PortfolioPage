@@ -14,11 +14,12 @@
 
 .social-icon-linkedIn {
   color: #425055;
+  /* background-color: #9daab1; */
   font-size: 3vh;
   transition: transform 0.3s ease-in-out;
   transform: translateX(-80%);
   width: 16vh; /* Set a fixed width */
-  height: 3vh; /* Set a fixed height */
+  height: 4vh; /* Set a fixed height */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,6 +87,11 @@
 
 .social-icon-resume:hover {
   transform: translateX(0%);
+}
+
+.icon-fill-light {
+  background-color: #9daab1;
+  padding-right: 1vh;
 }
 
 @media (max-width: 768px) {

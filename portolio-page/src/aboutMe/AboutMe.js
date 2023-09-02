@@ -12,7 +12,7 @@ function AboutMe() {
             things to learn. Solving problems has always provided a unique
             degree of satisfaction, and the world of software development has
             given a level of tangibility to complex problems that has incited in
-            me, a passion for coding. I've worked in customer service, I've
+            me a passion for coding. I've worked in customer service, I've
             worked in sales, I've driven forklifts and box trucks, I've built
             patios and delivered Appliances, all the while, one thing has been
             the same, I've loved being part of a team, I've loved reaching

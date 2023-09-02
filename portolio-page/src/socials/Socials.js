@@ -11,7 +11,7 @@ function Socials() {
           className="social-icon-linkedIn"
         >
           <span className="text-icon">linkedin</span>
-          <i className="bi bi-linkedin "></i>
+          <i className="bi bi-linkedin"></i>
         </a>
         <a
           href="https://github.com/dimsumshrimsum"
