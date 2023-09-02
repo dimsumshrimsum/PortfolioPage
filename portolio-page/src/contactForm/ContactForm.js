@@ -1,9 +1,17 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./ContactForm.css";
-
+import { useEffect } from "react";
+const bootstrap = require("bootstrap");
 function ContactForm() {
   const form = useRef();
+
+  useEffect(() => {
+    const tooltips = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+    tooltips.forEach((tooltip) => {
+      new bootstrap.Tooltip(tooltip);
+    });
+  }, []);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -86,6 +94,9 @@ function ContactForm() {
               target="_blank"
               rel="noreferrer"
               className="d-flex justify-content-center align-items-center "
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="LinkedIn"
             >
               <i className="bi bi-linkedin light-icon "></i>
             </a>
@@ -96,6 +107,9 @@ function ContactForm() {
               target="_blank"
               rel="noreferrer"
               className="d-flex justify-content-center align-items-center "
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Github"
             >
               <i className="bi bi-github dark-icon"></i>
             </a>
@@ -104,6 +118,9 @@ function ContactForm() {
             <a
               href="mailto:zrobles1188@gmail.com"
               className="d-flex justify-content-center align-items-center"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Email"
             >
               <i className="bi bi-envelope-at-fill light-icon"></i>
             </a>
@@ -113,6 +130,9 @@ function ContactForm() {
               href="/downloads/ZachRoblesSoftwareEngineer.pdf"
               download="ZachRoblesResume.pdf"
               className="d-flex justify-content-center align-items-center"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Download Resume"
             >
               <i className="bi bi-file-earmark-person-fill dark-icon"></i>
             </a>

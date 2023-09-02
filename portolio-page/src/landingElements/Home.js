@@ -52,7 +52,7 @@ function Home() {
         id="projects"
       ></div>
       <div className="row align-items-center mt-4 mb-4">
-        <div className="col-md-8 mx-auto">
+        <div className="col-md-10a col-lg-8 mx-auto">
           <Projects />
         </div>
       </div>
