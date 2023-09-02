@@ -8,7 +8,7 @@ function AboutMe() {
         <div className="col-md-8 d-flex align-items-center">
           <p className="text">
             I'm Zachary, but please feel free to call me Zach. I'm inspired by
-            learning new things and coding supplies a limitless spring of new
+            learning new things and coding supplies a limitless font of new
             things to learn. Solving problems has always provided a unique
             degree of satisfaction, and the world of software development has
             given a level of tangibility to complex problems that has incited in
