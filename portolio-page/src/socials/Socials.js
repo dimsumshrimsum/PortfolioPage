@@ -27,7 +27,7 @@ function Socials() {
           <i className="bi bi-envelope-at-fill email-icon"></i>
         </a>
         <a
-          href="/downloads/ZachRoblesSoftwareEngineer.pdf"
+          href="/downloads/ZachRoblesSoftwareEng.pdf"
           download="ZachRoblesResume.pdf"
           className="social-icon-resume"
         >
