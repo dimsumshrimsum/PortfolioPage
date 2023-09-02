@@ -38,6 +38,7 @@
   width: 16.5vh; /* Set a fixed width */
   height: 5vh; /* Set a fixed height */
   border-radius: 0 10px 10px 0;
+
 }
 
 .social-icon-email {
@@ -58,14 +59,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
   color: #9daab1;
   background-color: #425055;
   font-size: 3vh;
   transition: transform 0.3s ease-in-out;
   transform: translateX(-78%);
+
   width: 19.2vh; /* Set a fixed width */
   height: 5vh; /* Set a fixed height */
   border-radius: 0 10px 10px 0;
+
 }
 
 .text-icon {
